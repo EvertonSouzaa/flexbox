@@ -1,0 +1,26 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.container {
+  background: lightcoral;
+}
+
+.container-menu {
+  background: lightgrey;
+  display: flex;
+  gap: 20px;
+  font-size: 2rem;
+}
+.container-menu li {
+  flex: 1;
+  flex-wrap: wrap;
+  background: lightsalmon;
+  text-align: center;
+  padding: 40px 20px;
+}
